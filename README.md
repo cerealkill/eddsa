@@ -1,4 +1,4 @@
-# EdDSA Signature Zknark Smart-Contract Test
+# EdDSA Signature Snark Smart-Contract Test
 
 Boilerplate to deploy EdDSA signature validation circuit smart-contract.
 

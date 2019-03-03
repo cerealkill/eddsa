@@ -2,25 +2,39 @@
 
 Boilerplate to deploy EdDSA signature validation circuit smart-contract.
 
-##Usage
+## Usage
 First install deps:
-`npm i`
+```
+npm i
+```
 Generate new private key and `input.json` containing it:
-`node generate_inputs.js`
+```
+node generate_inputs.js
+```
 Calculate the snark scheme witness, `witness.json` for provided input
-`snarkjs calculatewitness`
+```
+snarkjs calculatewitness
+```
 Generate local proof and scheme outputs
-`snarkjs proof`
+```
+snarkjs proof
+```
 Test is all went smooth:
-`snarkjs verify`
+```
+snarkjs verify
+```
 Generate the solidity `verifier.sol` smart-contract
-`snarkjs generateverifier`
+```
+snarkjs generateverifier
+```
 
 Now deploy the smart-contract on your favorite EWM based chain
 And then use the tool to generate the smart-contract method call
-`snarkjs generatecall`
+```
+snarkjs generatecall
+```
 
-##References
+## References
 [Circom Tutorial](https://github.com/iden3/circom/blob/master/TUTORIAL.md)
 [Circom Features](https://hackmd.io/s/HyDvec4SN)
 - Binary to Field and Field to Binary converters

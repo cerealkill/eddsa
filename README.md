@@ -48,6 +48,6 @@ snarkjs generatecall
     - Comparators
     - Logical operators like adders and Binary Gates.
     - SHA256 Hash function.
-- [EdDSA on Wikipedia(https://en.wikipedia.org/wiki/EdDSA)
+- [EdDSA on Wikipedia](https://en.wikipedia.org/wiki/EdDSA)
 - [Glitching Arduino Nano to steal EdDSA keys](https://research.kudelskisecurity.com/2017/10/04/defeating-eddsa-with-faults/)
 - [Zcash on JubJub and other new primitives included in Circom](https://z.cash/technology/jubjub/)

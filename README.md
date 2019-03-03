@@ -35,19 +35,19 @@ snarkjs generatecall
 ```
 
 ## References
-[Circom Tutorial](https://github.com/iden3/circom/blob/master/TUTORIAL.md)
-[Circom Features](https://hackmd.io/s/HyDvec4SN)
-- Binary to Field and Field to Binary converters
-- BabyJub Addition and scalar multiplication
-- EdDSA
-- BabyJub Point compressor/decompressor
-- Pedersen commitments
-- MiMC7 Hash
-- Sparse Merkle trees processors to add/update/remove elements to a Sparse merkle tree.
-- Sparse Merkle tree verifiers to verify inclusion and exclussion.
-- Comparators
-- Logical operators like adders and Binary Gates.
-- SHA256 Hash function.
-[EdDSA on Wikipedia(https://en.wikipedia.org/wiki/EdDSA)
-[Glitching Arduino Nano to steal EdDSA keys](https://research.kudelskisecurity.com/2017/10/04/defeating-eddsa-with-faults/)
-[Zcash on JubJub and other new primitives included in Circom](https://z.cash/technology/jubjub/)
+- [Circom Tutorial](https://github.com/iden3/circom/blob/master/TUTORIAL.md)
+- [Circom Features](https://hackmd.io/s/HyDvec4SN)
+    - Binary to Field and Field to Binary converters
+    - BabyJub Addition and scalar multiplication
+    - EdDSA
+    - BabyJub Point compressor/decompressor
+    - Pedersen commitments
+    - MiMC7 Hash
+    - Sparse Merkle trees processors to add/update/remove elements to a Sparse merkle tree.
+    - Sparse Merkle tree verifiers to verify inclusion and exclussion.
+    - Comparators
+    - Logical operators like adders and Binary Gates.
+    - SHA256 Hash function.
+- [EdDSA on Wikipedia(https://en.wikipedia.org/wiki/EdDSA)
+- [Glitching Arduino Nano to steal EdDSA keys](https://research.kudelskisecurity.com/2017/10/04/defeating-eddsa-with-faults/)
+- [Zcash on JubJub and other new primitives included in Circom](https://z.cash/technology/jubjub/)

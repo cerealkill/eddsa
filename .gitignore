@@ -1,0 +1,7 @@
+input.json
+witness.json
+proof.json
+public.json
+verifier.sol
+node_modules
+.idea/

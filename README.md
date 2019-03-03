@@ -3,7 +3,11 @@
 Boilerplate to deploy EdDSA signature validation circuit smart-contract.
 
 ## Usage
-First install deps:
+First install snark tool:
+```
+npm i -g snarkjs
+```
+Install dependencies:
 ```
 npm i
 ```
